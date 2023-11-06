@@ -1,0 +1,9 @@
+.chatSupportContainer {
+    display: flex;
+    width: 100vw;
+}
+
+.ticketsList,
+.liveChat {
+    width: 50%;
+}

@@ -1,0 +1,31 @@
+/* Headings (Filter by Title/Order ID)- #212121
+Primary Text Color (Flipkart Support , Order OD121898535971680000) - #000000
+Secondary Text Color (Start typing to search ) - #878787
+ChatList Highlighted background and Single Chat View Background - #f1f3f6
+ChatList  Divider Color- #f0f0f0
+Flipkart Blue - #027CD5
+OptionedMessage Background - #f5f5f5 */
+
+.ticketContainer {
+    padding: 10px;
+    display: flex;
+}
+
+.ticketImage {
+    height: 50px;
+    width: 50px;
+}
+
+.titleAndOrderId {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3px;
+    align-items: flex-start;
+    font-weight: bold;
+}
+
+.ticketInfo {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
